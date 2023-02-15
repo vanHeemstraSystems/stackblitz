@@ -7,3 +7,7 @@ Explore the full potential of StackBlitz: from writing code or spinning quick de
 ## 100 - Import from GitHub
 
 See [README.md](./100/README.md)
+
+## 200 - Using the StackBlitz editor
+
+See [README.md](./200/README.md)
