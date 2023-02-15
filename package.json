@@ -33,6 +33,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "react-scripts-ts": "latest"
+    "react-scripts-ts": "latest",
+    "typescript": "^4.9.5"
   }
 }
