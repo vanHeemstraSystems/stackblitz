@@ -60,7 +60,42 @@ stackblitz.com/fork/github/{gh_username}/{repo_name}?startScript={npm_script_nam
 
 **Example**: The following URL will open the vitesse repository of the antfu user, install the npm dependencies, and run npm run dev command in the terminal:
 
-stackblitz.com/github/antfu/vitesse?startScript=dev
+[stackblitz.com/github/antfu/vitesse?startScript=dev](https://stackblitz.com/github/antfu/vitesse?startScript=dev)
 
 Click on it and see the effect yourself!
+
+## Changing the title of the imported project
+When importing a project from GitHub, the project title will default to the GitHub project owner's name and repository name.
+
+You can customize the title of the imported project by adding the title query parameter to the URL like so:
+
+stackblitz.com/fork/github/{gh_username}/{repo_name}?title={custom title}
+
+For instance, the URL from the previous section would now become:
+
+[stackblitz.com/github/antfu/vitesse?title=Hello](stackblitz.com/github/antfu/vitesse?title=Hello)
+
+**Tip**: You can chain the URL query parameters by adding the & sign between them, for example:
+
+[stackblitz.com/github/antfu/vitesse?title=Hello](stackblitz.com/github/antfu/vitesse?title=Hello)
+
+## Importing private projects
+
+**Note**: Importing private GitHub repos is a feature available with our memberships. If you're interested in becoming a member, check details on our StackBlitz Membership page.
+
+1. Go to your dashboard and open a new JavaScript blank project.
+
+2. Click on 'Connect repository' on the top left.
+
+3. Click on the 'importing from an existing repository' link.
+
+4. Paste your full GitHub repo URL.
+
+The video below outlines a workaround to edit collaboratively in a private repo:
+
+https://www.loom.com/share/54c9f65e05494b00b6aa1bb9e0bbe7ab
+
+## Importing or creating projects with StackBlitz API
+
+You can create new StackBlitz projects programmatically from any data source using our [POST API](https://developer.stackblitz.com/platform/api/post-api) or the [openProject](https://developer.stackblitz.com/platform/api/javascript-sdk#openproject) and [embedProject](https://developer.stackblitz.com/platform/api/javascript-sdk#embedproject) methods in our [JavaScript SDK](https://developer.stackblitz.com/platform/api/javascript-sdk).
 
