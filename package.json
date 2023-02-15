@@ -1,23 +1,22 @@
 {
-  "name": "my-server",
+  "name": "stackblitz",
   "version": "1.0.0",
-  "description": "An express application",
+  "description": "An example application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jon Church",
+  "author": "me",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osiolabs/heynode.git"
+    "url": "git+https://github.com/vanHeemstraSystems/stackblitz.git"
   },
   "bugs": {
-    "url": "https://github.com/osiolabs/heynode/issues"
+    "url": "https://github.com/vanHeemstraSystems/stackblitz/issues"
   },
-  "homepage": "https://github.com/osiolabs/heynode#readme",
+  "homepage": "https://github.com/vanHeemstraSystems/stackblitz#readme",
   "keywords": [
-    "express",
-    "server"
+    "stackblitz"
   ]
 }
