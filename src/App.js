@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { render } from 'react-dom';
+import logo from './logo.svg';
+import './App.css';
 import MarkmapHooks from './markmap-hooks';
 import MarkmapClass from './markmap-class';
 import './style.css';
 
 function App() {
   const [type, setType] = useState('hooks');
-
   const Component = type === 'hooks' ? MarkmapHooks : MarkmapClass;
   return (
     <div className="flex flex-col h-screen p-2">
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-render(<App />, document.getElementById('root'));
+export default App;
