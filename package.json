@@ -1,10 +1,13 @@
 {
   "name": "stackblitz",
   "version": "1.0.0",
+  "private": false,
   "description": "An example application",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
   },
   "author": "me",
   "license": "ISC",
@@ -16,7 +19,18 @@
     "url": "https://github.com/vanHeemstraSystems/stackblitz/issues"
   },
   "homepage": "https://github.com/vanHeemstraSystems/stackblitz#readme",
-  "keywords": [
-    "stackblitz"
-  ]
+  "keywords": ["stackblitz"],
+  "dependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "d3": "^7.8.2",
+    "markmap-common": "^0.14.2",
+    "markmap-lib": "^0.14.4",
+    "markmap-view": "^0.14.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "react-scripts-ts": "latest"
+  }
 }
