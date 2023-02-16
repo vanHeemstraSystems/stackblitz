@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import MarkmapHooks from './markmap-hooks';
 import MarkmapClass from './markmap-class';

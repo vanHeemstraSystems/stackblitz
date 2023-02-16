@@ -22,7 +22,8 @@ export default function MarkmapHooks() {
     // Create markmap and save to refMm
     if (refMm.current) return;
     refMm.current = Markmap.create(refSvg.current);
-  }, [refSvg.current]);
+  // }, [refSvg.current]);
+  },[]);
 
   useEffect(() => {
     // Update data for markmap once value is changed
@@ -31,7 +32,8 @@ export default function MarkmapHooks() {
     const { root } = transformer.transform(value);
     mm.setData(root);
     mm.fit();
-  }, [refMm.current, value]);
+  // }, [refMm.current, value]);
+  }, [value]);
 
   const handleChange = (e) => {
     setValue(e.target.value);
